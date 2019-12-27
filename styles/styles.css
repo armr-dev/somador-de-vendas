@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+body {
+  /* background-color: grey; */
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #5f27cd, #341f97);
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+hr {
+  border: 1px solid #c8d6e5;
+}
+
+.card-body {
+  margin-bottom: 15px;
+  padding: 30px 0px 30px 0px;
+  max-width: 373px;
+  width: 90vw;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-div {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.qty-div {
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.qty-div input {
+  padding: 4px;
+  width: 24px;
+  border-color: #e2e2e2;
+  border: none;
+  outline: none;
+  background: none;
+  margin-top: 8px;
+}
+
+.value-div {
+  margin-left: 16px;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.value-div input {
+  padding: 4px;
+  width: 90% content-box;
+  border: none;
+  outline: none;
+  background: none;
+  position: relative;
+  margin-top: 8px;
+}
+
+.sum-button {
+  padding: 8px;
+  width: 100px;
+  background-image: linear-gradient(120deg, #5f27cd, #341f97);
+  color: white;
+  font-weight: bolder;
+  border-radius: 100vh;
+  border-width: 0;
+  margin-top: 16px;
+  transition: 0.5;
+}
+
+.sum-button:hover {
+  /* background-image: linear-gradient(90deg, #54a0ff, #5f27cd); */
+}
+
+.sum-button:active {
+  background-image: linear-gradient(90deg, #54a0ff, #5f27cd);
+  transition: .5s;
+}
